@@ -13,6 +13,7 @@ void multMatriz(float **a, float **b, float **res, int n ) {
 	int i, j, k;
 	for ( i = 0; i < n; i++){
 		for ( j = 0; j < n; j++){
+			res[i][j] = 0;
 			for ( k = 0; k < n; k++){
 				res[i][j] += a[i][k] * b[k][j];
 			}
