@@ -2,8 +2,8 @@
 #include <time.h>
 #include <stdlib.h>
 
-#define N 2
-#define RANDOM 10
+#define N 5
+#define RANDOM 100
 
 
 
@@ -13,13 +13,15 @@ void multMatriz(float **a, float **b, float **res, int n ) {
 	
 	int i, j, k;
 	for ( i = 0; i < n; i++){
-		for ( j = 0; j < n; j++){
-			for ( k = 0; k < n; k++){
+		for ( k = 0; k < n; k++){
+			for ( j= 0; j < n; j++){
 				res[i][j] += a[i][k] * b[k][j];
 			}
 		}
 	}
 }
+
+
 
 
 void imprimeMatriz(float **m, int n){
@@ -64,9 +66,7 @@ void imprimeMatriz(float **m, int n){
 	 }
 	}
 	printf("\n");
-	multMatriz(matrizB,matrizA,matrizR,N);
-		imprimeMatriz(matrizA,N);
-
+	multMatriz(matrizA,matrizB,matrizR,N);
 	imprimeMatriz(matrizR,N);
 	free(matrizA);
 	free(matrizB);

@@ -3,8 +3,25 @@
 #include <stdlib.h>
 
 #define N 2
-#define RANDOM 10
+#define RANDOM 5
 
+/* Matriz transposta */
+float** transposta(float ** temp,int n){
+  float** aux = malloc( n * sizeof( float* ));
+  int i,j;
+  
+  for ( i = 0; i < n; i++ ){
+    aux[i] = malloc( n * sizeof(float ));
+  }
+
+  for(i=0; i<n; i++){
+    for(j=0; j<n; j++){
+      aux[i][j]=temp[j][i];
+    }
+  }
+
+  return aux;
+}
 
 
 /* Multiplicador de matrizes*/
@@ -12,14 +29,19 @@
 void multMatriz(float **a, float **b, float **res, int n ) {
 	
 	int i, j, k;
-	for ( i = 0; i < n; i++){
-		for ( j = 0; j < n; j++){
-			for ( k = 0; k < n; k++){
-				res[i][j] += a[i][k] * b[k][j];
+	float** matrizBtrans = transposta(b,n);
+	
+	for ( j = 0; j < n; j++){
+		for ( k = 0; k < n; k++){
+			for ( i= 0; i < n; i++){
+				res[i][j] += a[i][k] * matrizBtrans[j][k];
 			}
 		}
 	}
+
+  free(matrizBtrans);
 }
+
 
 
 void imprimeMatriz(float **m, int n){
@@ -60,13 +82,12 @@ void imprimeMatriz(float **m, int n){
 		 matrizA[i][j] = ((float)rand()/(float)(RAND_MAX)) * RANDOM;
 		 matrizB[i][j] = 1;
 		 matrizR[i][j]=0;
-
 	 }
 	}
 	printf("\n");
-	multMatriz(matrizB,matrizA,matrizR,N);
-		imprimeMatriz(matrizA,N);
-
+	multMatriz(matrizA,matrizB,matrizR,N);
+	imprimeMatriz(matrizA,N);
+	imprimeMatriz(matrizB,N);
 	imprimeMatriz(matrizR,N);
 	free(matrizA);
 	free(matrizB);
