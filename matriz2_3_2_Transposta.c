@@ -5,20 +5,41 @@
 #define N 2
 #define RANDOM 5
 
+/* Matriz transposta */
+float** transposta(float ** temp,int n){
+  float** aux = malloc( n * sizeof( float* ));
+  int i,j;
+  
+  for ( i = 0; i < n; i++ ){
+    aux[i] = malloc( n * sizeof(float ));
+  }
+
+  for(i=0; i<n; i++){
+    for(j=0; j<n; j++){
+      aux[i][j]=temp[j][i];
+    }
+  }
+
+  return aux;
+}
+
 
 /* Multiplicador de matrizes*/
 
 void multMatriz(float **a, float **b, float **res, int n ) {
 	
 	int i, j, k;
+	float** matrizBtrans = transposta(b,n);
 	
 	for ( j = 0; j < n; j++){
 		for ( k = 0; k < n; k++){
 			for ( i= 0; i < n; i++){
-				res[i][j] += a[i][k] * b[k][j];
+				res[i][j] += a[i][k] * matrizBtrans[j][k];
 			}
 		}
 	}
+
+  free(matrizBtrans);
 }
 
 
