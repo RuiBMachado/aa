@@ -1,4 +1,5 @@
 "Os grupos com numeração par não necessitam fazer a tarefa 2.13" - Somos grupo 8
+
 Vectorizacao : gcc -O2 -march=native -ftree-vectorize -fopt-info-vec matriz2_11.c
 
 Maquina 652 do cluster:                                       
