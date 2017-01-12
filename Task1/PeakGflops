@@ -8,10 +8,18 @@ Lithography :	22 nm
 Processor Base Frequency	2.60 GHz
 Max Turbo Frequency	3.10 GHz
 
-Peak FP performance : G𝐹𝐿𝑂𝑃𝑆 = #𝑐𝑜𝑟𝑒𝑠 × 𝐴𝑣𝑒𝑟𝑎𝑔𝑒 𝐹𝑟𝑒𝑞𝑢𝑒𝑛𝑐𝑦 × 𝑂𝑝𝑒𝑟𝑎𝑡𝑖𝑜𝑛𝑠/ 𝐶𝑦𝑐𝑙𝑒.
+Peak FP performance  (2.6Ghz) : G𝐹𝐿𝑂𝑃𝑆 = #𝑐𝑜𝑟𝑒𝑠 × 𝐴𝑣𝑒𝑟𝑎𝑔𝑒 𝐹𝑟𝑒𝑞𝑢𝑒𝑛𝑐𝑦 × 𝑂𝑝𝑒𝑟𝑎𝑡𝑖𝑜𝑛𝑠/ 𝐶𝑦𝑐𝑙𝑒.
                       G𝐹𝐿𝑂𝑃𝑆 = 2 × 2.60 × 16 (DP)
                       G𝐹𝐿𝑂𝑃𝑆 = 83.2 (DP)
                       
                       G𝐹𝐿𝑂𝑃𝑆 = 2 × 2.60 × 32 (SP)
                       G𝐹𝐿𝑂𝑃𝑆 = 166.4 (SP)
+                      
+                    
+Peak FP performance Turbo Boost (3.1ghz) : G𝐹𝐿𝑂𝑃𝑆 = #𝑐𝑜𝑟𝑒𝑠 × 𝐴𝑣𝑒𝑟𝑎𝑔𝑒 𝐹𝑟𝑒𝑞𝑢𝑒𝑛𝑐𝑦 × 𝑂𝑝𝑒𝑟𝑎𝑡𝑖𝑜𝑛𝑠/ 𝐶𝑦𝑐𝑙𝑒.
+                                           G𝐹𝐿𝑂𝑃𝑆 = 2 × 3.10 × 16 (DP)
+                                           G𝐹𝐿𝑂𝑃𝑆 = 99.2 (DP)
+                      
+                                           G𝐹𝐿𝑂𝑃𝑆 = 2 × 3.10 × 32 (SP)
+                                           G𝐹𝐿𝑂𝑃𝑆 = 198.4 (SP)
                      
