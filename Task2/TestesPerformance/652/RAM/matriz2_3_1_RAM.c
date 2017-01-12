@@ -8,7 +8,7 @@
 #include <memory.h>
 #include "papi.h"
 
-#define N 50
+#define N 3000
 #define RANDOM 100
 
 static void test_fail(char *file, int line, char *call, int retval);

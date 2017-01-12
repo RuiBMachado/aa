@@ -2,8 +2,8 @@
 #include <time.h>
 #include <stdlib.h>
 
-#define N 2
-#define RANDOM 10
+#define N 50
+#define RANDOM 100
 
 
 

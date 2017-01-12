@@ -1,0 +1,37 @@
+REPETICAO 1
+
+
+Real_time:	403.144836
+Proc_time:	402.345764
+Total flpins:	106675905497
+MFLOPS:		265.134918
+matriz2_2_RAM.c	PASSED
+
+REPETICAO 2
+
+
+Real_time:	412.364563
+Proc_time:	411.575562
+Total flpins:	112925134008
+MFLOPS:		274.372772
+matriz2_2_RAM.c	PASSED
+
+REPETICAO 3
+
+
+Real_time:	424.094055
+Proc_time:	423.270264
+Total flpins:	109867160171
+MFLOPS:		259.567413
+matriz2_2_RAM.c	PASSED
+
+REPETICAO 4
+
+
+Real_time:	387.984436
+Proc_time:	387.235535
+Total flpins:	108701283863
+MFLOPS:		280.711029
+matriz2_2_RAM.c	PASSED
+
+REPETICAO 5

@@ -8,25 +8,25 @@
 #include <memory.h>
 #include "papi.h"
 
-#define N 50
+#define N 3000
 #define RANDOM 100
+
 
 static void test_fail(char *file, int line, char *call, int retval);
 
 /* Multiplicador de matrizes*/
-
 void multMatriz(float **a, float **b, float **res, int n ) {
 	
 	int i, j, k;
-	for ( i = 0; i < n; i++){
+	
+	for ( j = 0; j < n; j++){
 		for ( k = 0; k < n; k++){
-			for ( j= 0; j < n; j++){
+			for ( i= 0; i < n; i++){
 				res[i][j] += a[i][k] * b[k][j];
 			}
 		}
 	}
 }
-
 
 
 
@@ -45,7 +45,7 @@ void imprimeMatriz(float **m, int n){
 
  int main() {
 	 
-	 //PAPI
+	  //PAPI
 	float real_time, proc_time,mflops;
   	long long flpins;
   	int retval;
@@ -73,25 +73,26 @@ void imprimeMatriz(float **m, int n){
 		 matrizA[i][j] = ((float)rand()/(float)(RAND_MAX)) * RANDOM;
 		 matrizB[i][j] = 1;
 		 matrizR[i][j]=0;
-
 	 }
 	}
 	printf("\n");
 	
-	 /* Setup PAPI library and begin collecting data from the counters */
+	/* Setup PAPI library and begin collecting data from the counters */
     if((retval=PAPI_flops( &real_time, &proc_time, &flpins, &mflops))<PAPI_OK)
     test_fail(__FILE__, __LINE__, "PAPI_flops", retval);
 
 	multMatriz(matrizA,matrizB,matrizR,N);
 	
+	
 	/* Collect the data into the variables passed in */
    if((retval=PAPI_flops( &real_time, &proc_time, &flpins, &mflops))<PAPI_OK)
     test_fail(__FILE__, __LINE__, "PAPI_flops", retval);
-
+	
 	printf("\n");
 	printf("Real_time:\t%f\nProc_time:\t%f\nTotal flpins:\t%lld\nMFLOPS:\t\t%f\n",
     real_time, proc_time, flpins, mflops);
     printf("%s\tPASSED\n", __FILE__);
+	
 	free(matrizA);
 	free(matrizB);
 	free(matrizR);

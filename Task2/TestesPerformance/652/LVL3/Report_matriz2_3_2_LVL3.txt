@@ -1,0 +1,72 @@
+REPETICAO 1
+
+
+Real_time:	6.459651
+Proc_time:	6.447408
+Total flpins:	3618072271
+MFLOPS:		561.166931
+matriz2_3_2_LVL3.c	PASSED
+
+REPETICAO 2
+
+
+Real_time:	6.432443
+Proc_time:	6.420553
+Total flpins:	3626458415
+MFLOPS:		564.820251
+matriz2_3_2_LVL3.c	PASSED
+
+REPETICAO 3
+
+
+Real_time:	6.431751
+Proc_time:	6.419811
+Total flpins:	3647992918
+MFLOPS:		568.239929
+matriz2_3_2_LVL3.c	PASSED
+
+REPETICAO 4
+
+
+Real_time:	6.450444
+Proc_time:	6.438484
+Total flpins:	3619948580
+MFLOPS:		562.236145
+matriz2_3_2_LVL3.c	PASSED
+
+REPETICAO 5
+
+
+Real_time:	6.426359
+Proc_time:	6.414498
+Total flpins:	3633844797
+MFLOPS:		566.504944
+matriz2_3_2_LVL3.c	PASSED
+
+REPETICAO 6
+
+
+Real_time:	6.422326
+Proc_time:	6.410430
+Total flpins:	3649834597
+MFLOPS:		569.358765
+matriz2_3_2_LVL3.c	PASSED
+
+REPETICAO 7
+
+
+Real_time:	6.436780
+Proc_time:	6.424884
+Total flpins:	3628068345
+MFLOPS:		564.690125
+matriz2_3_2_LVL3.c	PASSED
+
+REPETICAO 8
+
+
+Real_time:	5.423650
+Proc_time:	5.410708
+Total flpins:	2916604173
+MFLOPS:		539.042969
+matriz2_3_2_LVL3.c	PASSED
+

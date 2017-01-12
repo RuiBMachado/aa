@@ -1,0 +1,72 @@
+REPETICAO 1
+
+
+Real_time:	0.057189
+Proc_time:	0.057060
+Total flpins:	16057297
+MFLOPS:		281.410736
+matriz2_3_2_Transposta_LVL2.c	PASSED
+
+REPETICAO 2
+
+
+Real_time:	0.053233
+Proc_time:	0.053127
+Total flpins:	16059717
+MFLOPS:		302.289185
+matriz2_3_2_Transposta_LVL2.c	PASSED
+
+REPETICAO 3
+
+
+Real_time:	0.053186
+Proc_time:	0.053076
+Total flpins:	16058899
+MFLOPS:		302.564240
+matriz2_3_2_Transposta_LVL2.c	PASSED
+
+REPETICAO 4
+
+
+Real_time:	0.053204
+Proc_time:	0.053095
+Total flpins:	16059330
+MFLOPS:		302.464081
+matriz2_3_2_Transposta_LVL2.c	PASSED
+
+REPETICAO 5
+
+
+Real_time:	0.053142
+Proc_time:	0.053031
+Total flpins:	16057019
+MFLOPS:		302.785522
+matriz2_3_2_Transposta_LVL2.c	PASSED
+
+REPETICAO 6
+
+
+Real_time:	0.053575
+Proc_time:	0.053465
+Total flpins:	16057452
+MFLOPS:		300.335785
+matriz2_3_2_Transposta_LVL2.c	PASSED
+
+REPETICAO 7
+
+
+Real_time:	0.053599
+Proc_time:	0.053482
+Total flpins:	16059008
+MFLOPS:		300.269409
+matriz2_3_2_Transposta_LVL2.c	PASSED
+
+REPETICAO 8
+
+
+Real_time:	0.053574
+Proc_time:	0.053463
+Total flpins:	16056901
+MFLOPS:		300.336700
+matriz2_3_2_Transposta_LVL2.c	PASSED
+

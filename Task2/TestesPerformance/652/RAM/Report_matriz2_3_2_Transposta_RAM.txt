@@ -1,0 +1,72 @@
+REPETICAO 1
+
+
+Real_time:	160.191483
+Proc_time:	159.890961
+Total flpins:	54185397092
+MFLOPS:		338.889679
+matriz2_3_2_Transposta_RAM.c	PASSED
+
+REPETICAO 2
+
+
+Real_time:	141.624100
+Proc_time:	141.342560
+Total flpins:	54191817478
+MFLOPS:		383.407623
+matriz2_3_2_Transposta_RAM.c	PASSED
+
+REPETICAO 3
+
+
+Real_time:	131.865601
+Proc_time:	131.619781
+Total flpins:	54196984492
+MFLOPS:		411.769318
+matriz2_3_2_Transposta_RAM.c	PASSED
+
+REPETICAO 4
+
+
+Real_time:	132.311035
+Proc_time:	132.062027
+Total flpins:	54197424780
+MFLOPS:		410.393707
+matriz2_3_2_Transposta_RAM.c	PASSED
+
+REPETICAO 5
+
+
+Real_time:	131.900726
+Proc_time:	131.653412
+Total flpins:	54196555864
+MFLOPS:		411.660858
+matriz2_3_2_Transposta_RAM.c	PASSED
+
+REPETICAO 6
+
+
+Real_time:	131.734314
+Proc_time:	131.485504
+Total flpins:	54197187074
+MFLOPS:		412.191345
+matriz2_3_2_Transposta_RAM.c	PASSED
+
+REPETICAO 7
+
+
+Real_time:	131.802048
+Proc_time:	131.553802
+Total flpins:	54196780471
+MFLOPS:		411.974274
+matriz2_3_2_Transposta_RAM.c	PASSED
+
+REPETICAO 8
+
+
+Real_time:	134.323395
+Proc_time:	134.070496
+Total flpins:	54196882298
+MFLOPS:		404.241699
+matriz2_3_2_Transposta_RAM.c	PASSED
+

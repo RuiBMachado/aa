@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 #define N 2
-#define RANDOM 10
+#define RANDOM 100
 
 
 

@@ -1,0 +1,72 @@
+REPETICAO 1
+
+
+Real_time:	160.321838
+Proc_time:	160.021103
+Total flpins:	54275135681
+MFLOPS:		339.174866
+matriz2_3_1_RAM.c	PASSED
+
+REPETICAO 2
+
+
+Real_time:	130.295929
+Proc_time:	130.055328
+Total flpins:	54287414315
+MFLOPS:		417.417847
+matriz2_3_1_RAM.c	PASSED
+
+REPETICAO 3
+
+
+Real_time:	130.187119
+Proc_time:	129.945969
+Total flpins:	54292059098
+MFLOPS:		417.804871
+matriz2_3_1_RAM.c	PASSED
+
+REPETICAO 4
+
+
+Real_time:	133.920761
+Proc_time:	133.676544
+Total flpins:	54289277303
+MFLOPS:		406.124176
+matriz2_3_1_RAM.c	PASSED
+
+REPETICAO 5
+
+
+Real_time:	130.261597
+Proc_time:	130.019318
+Total flpins:	54283851326
+MFLOPS:		417.506042
+matriz2_3_1_RAM.c	PASSED
+
+REPETICAO 6
+
+
+Real_time:	132.155899
+Proc_time:	131.913971
+Total flpins:	54279132077
+MFLOPS:		411.473724
+matriz2_3_1_RAM.c	PASSED
+
+REPETICAO 7
+
+
+Real_time:	131.811935
+Proc_time:	131.575043
+Total flpins:	54309767440
+MFLOPS:		412.766479
+matriz2_3_1_RAM.c	PASSED
+
+REPETICAO 8
+
+
+Real_time:	130.552841
+Proc_time:	130.316025
+Total flpins:	54261319656
+MFLOPS:		416.382507
+matriz2_3_1_RAM.c	PASSED
+
