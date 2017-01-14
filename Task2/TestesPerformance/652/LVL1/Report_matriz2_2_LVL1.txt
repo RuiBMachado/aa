@@ -1,72 +1,104 @@
 REPETICAO 1
 
 
-Real_time:	0.000681
-Proc_time:	0.000679
-Total flpins:	251279
-MFLOPS:		370.072174
+Bytes:	10000
+Real_time:	0.000856
+GFLOPS:		0.292056
+L1 Misses:	896
+L2 Misses:	296
+L3 Misses:	0
+Ram Acess:	0.000000
+Total Instructions:	5774584
 matriz2_2_LVL1.c	PASSED
 
 REPETICAO 2
 
 
-Real_time:	0.000696
-Proc_time:	0.000690
-Total flpins:	251381
-MFLOPS:		364.320282
+Bytes:	10000
+Real_time:	0.001213
+GFLOPS:		0.206101
+L1 Misses:	839
+L2 Misses:	307
+L3 Misses:	0
+Ram Acess:	0.000000
+Total Instructions:	5774585
 matriz2_2_LVL1.c	PASSED
 
 REPETICAO 3
 
 
-Real_time:	0.000672
-Proc_time:	0.000671
-Total flpins:	251314
-MFLOPS:		374.536499
+Bytes:	10000
+Real_time:	0.001310
+GFLOPS:		0.190840
+L1 Misses:	1163
+L2 Misses:	377
+L3 Misses:	0
+Ram Acess:	0.000000
+Total Instructions:	5774585
 matriz2_2_LVL1.c	PASSED
 
 REPETICAO 4
 
 
-Real_time:	0.000668
-Proc_time:	0.000666
-Total flpins:	251234
-MFLOPS:		377.228241
+Bytes:	10000
+Real_time:	0.001540
+GFLOPS:		0.162338
+L1 Misses:	1118
+L2 Misses:	319
+L3 Misses:	1
+Ram Acess:	0.000000
+Total Instructions:	5774588
 matriz2_2_LVL1.c	PASSED
 
 REPETICAO 5
 
 
-Real_time:	0.000692
-Proc_time:	0.000686
-Total flpins:	251294
-MFLOPS:		366.317780
+Bytes:	10000
+Real_time:	0.001638
+GFLOPS:		0.152625
+L1 Misses:	1115
+L2 Misses:	418
+L3 Misses:	0
+Ram Acess:	0.000000
+Total Instructions:	5774587
 matriz2_2_LVL1.c	PASSED
 
 REPETICAO 6
 
 
-Real_time:	0.000695
-Proc_time:	0.000683
-Total flpins:	251438
-MFLOPS:		368.137634
+Bytes:	10000
+Real_time:	0.001784
+GFLOPS:		0.140135
+L1 Misses:	1166
+L2 Misses:	404
+L3 Misses:	1
+Ram Acess:	0.000000
+Total Instructions:	5774587
 matriz2_2_LVL1.c	PASSED
 
 REPETICAO 7
 
 
-Real_time:	0.000650
-Proc_time:	0.000649
-Total flpins:	251058
-MFLOPS:		386.838226
+Bytes:	10000
+Real_time:	0.001704
+GFLOPS:		0.146714
+L1 Misses:	725
+L2 Misses:	280
+L3 Misses:	0
+Ram Acess:	0.000000
+Total Instructions:	5774585
 matriz2_2_LVL1.c	PASSED
 
 REPETICAO 8
 
 
-Real_time:	0.000685
-Proc_time:	0.000683
-Total flpins:	251318
-MFLOPS:		367.961945
+Bytes:	10000
+Real_time:	0.000821
+GFLOPS:		0.304507
+L1 Misses:	804
+L2 Misses:	308
+L3 Misses:	0
+Ram Acess:	0.000000
+Total Instructions:	5774585
 matriz2_2_LVL1.c	PASSED
 

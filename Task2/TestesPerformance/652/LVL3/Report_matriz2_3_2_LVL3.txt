@@ -1,72 +1,104 @@
 REPETICAO 1
 
 
-Real_time:	6.459651
-Proc_time:	6.447408
-Total flpins:	3618072271
-MFLOPS:		561.166931
+Bytes:	2560000
+Real_time:	6.477068
+GFLOPS:		0.158096
+L1 Misses:	1322285654
+L2 Misses:	72285817
+L3 Misses:	266533     
+Ram Acess:	0.000011
+Total Instructions:	23557775532
 matriz2_3_2_LVL3.c	PASSED
 
 REPETICAO 2
 
 
-Real_time:	6.432443
-Proc_time:	6.420553
-Total flpins:	3626458415
-MFLOPS:		564.820251
+Bytes:	2560000
+Real_time:	6.431664
+GFLOPS:		0.159212
+L1 Misses:	1324063656
+L2 Misses:	46710504
+L3 Misses:	286322     
+Ram Acess:	0.000012
+Total Instructions:	23557775302
 matriz2_3_2_LVL3.c	PASSED
 
 REPETICAO 3
 
 
-Real_time:	6.431751
-Proc_time:	6.419811
-Total flpins:	3647992918
-MFLOPS:		568.239929
+Bytes:	2560000
+Real_time:	6.456012
+GFLOPS:		0.158612
+L1 Misses:	1322251573
+L2 Misses:	47856683
+L3 Misses:	332343     
+Ram Acess:	0.000014
+Total Instructions:	23557775387
 matriz2_3_2_LVL3.c	PASSED
 
 REPETICAO 4
 
 
-Real_time:	6.450444
-Proc_time:	6.438484
-Total flpins:	3619948580
-MFLOPS:		562.236145
+Bytes:	2560000
+Real_time:	6.626258
+GFLOPS:		0.154537
+L1 Misses:	1322691957
+L2 Misses:	55339621
+L3 Misses:	382513     
+Ram Acess:	0.000016
+Total Instructions:	23557775548
 matriz2_3_2_LVL3.c	PASSED
 
 REPETICAO 5
 
 
-Real_time:	6.426359
-Proc_time:	6.414498
-Total flpins:	3633844797
-MFLOPS:		566.504944
+Bytes:	2560000
+Real_time:	6.658846
+GFLOPS:		0.153780
+L1 Misses:	1322259293
+L2 Misses:	53966425
+L3 Misses:	421874     
+Ram Acess:	0.000018
+Total Instructions:	23557775532
 matriz2_3_2_LVL3.c	PASSED
 
 REPETICAO 6
 
 
-Real_time:	6.422326
-Proc_time:	6.410430
-Total flpins:	3649834597
-MFLOPS:		569.358765
+Bytes:	2560000
+Real_time:	6.649282
+GFLOPS:		0.154002
+L1 Misses:	1322373414
+L2 Misses:	50039460
+L3 Misses:	440042     
+Ram Acess:	0.000019
+Total Instructions:	23557775527
 matriz2_3_2_LVL3.c	PASSED
 
 REPETICAO 7
 
 
-Real_time:	6.436780
-Proc_time:	6.424884
-Total flpins:	3628068345
-MFLOPS:		564.690125
+Bytes:	2560000
+Real_time:	6.724891
+GFLOPS:		0.152270
+L1 Misses:	1322552242
+L2 Misses:	59395837
+L3 Misses:	574356     
+Ram Acess:	0.000024
+Total Instructions:	23557775643
 matriz2_3_2_LVL3.c	PASSED
 
 REPETICAO 8
 
 
-Real_time:	5.423650
-Proc_time:	5.410708
-Total flpins:	2916604173
-MFLOPS:		539.042969
+Bytes:	2560000
+Real_time:	6.692338
+GFLOPS:		0.153011
+L1 Misses:	1322600930
+L2 Misses:	59800064
+L3 Misses:	402081     
+Ram Acess:	0.000017
+Total Instructions:	23557775563
 matriz2_3_2_LVL3.c	PASSED
 

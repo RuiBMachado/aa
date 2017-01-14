@@ -1,72 +1,104 @@
 REPETICAO 1
 
 
-Real_time:	3.313379
-Proc_time:	3.307286
-Total flpins:	1027771096
-MFLOPS:		310.759674
+Bytes:	2560000
+Real_time:	2.664267
+GFLOPS:		0.384346
+L1 Misses:	35281956
+L2 Misses:	1802042
+L3 Misses:	79089
+Ram Acess:	0.000003
+Total Instructions:	23604339171
 matriz2_3_2_Transposta_LVL3.c	PASSED
 
 REPETICAO 2
 
 
-Real_time:	3.306379
-Proc_time:	3.300314
-Total flpins:	1027718182
-MFLOPS:		311.400116
+Bytes:	2560000
+Real_time:	2.638962
+GFLOPS:		0.388031
+L1 Misses:	35283164
+L2 Misses:	1794256
+L3 Misses:	83778
+Ram Acess:	0.000004
+Total Instructions:	23604339143
 matriz2_3_2_Transposta_LVL3.c	PASSED
 
 REPETICAO 3
 
 
-Real_time:	2.744930
-Proc_time:	2.739898
-Total flpins:	1027696043
-MFLOPS:		375.085510
+Bytes:	2560000
+Real_time:	2.633005
+GFLOPS:		0.388909
+L1 Misses:	35287368
+L2 Misses:	1798256
+L3 Misses:	77254
+Ram Acess:	0.000003
+Total Instructions:	23604339219
 matriz2_3_2_Transposta_LVL3.c	PASSED
 
 REPETICAO 4
 
 
-Real_time:	2.685539
-Proc_time:	2.680826
-Total flpins:	1027801416
-MFLOPS:		383.389832
+Bytes:	2560000
+Real_time:	2.625738
+GFLOPS:		0.389986
+L1 Misses:	35286160
+L2 Misses:	1791461
+L3 Misses:	77465
+Ram Acess:	0.000003
+Total Instructions:	23604339127
 matriz2_3_2_Transposta_LVL3.c	PASSED
 
 REPETICAO 5
 
 
-Real_time:	2.685042
-Proc_time:	2.679650
-Total flpins:	1027677484
-MFLOPS:		383.511841
+Bytes:	2560000
+Real_time:	2.624163
+GFLOPS:		0.390220
+L1 Misses:	35282967
+L2 Misses:	1776776
+L3 Misses:	76214
+Ram Acess:	0.000003
+Total Instructions:	23604339131
 matriz2_3_2_Transposta_LVL3.c	PASSED
 
 REPETICAO 6
 
 
-Real_time:	2.659044
-Proc_time:	2.653808
-Total flpins:	1027748255
-MFLOPS:		387.273010
+Bytes:	2560000
+Real_time:	2.623987
+GFLOPS:		0.390246
+L1 Misses:	35281739
+L2 Misses:	1781526
+L3 Misses:	77205
+Ram Acess:	0.000003
+Total Instructions:	23604339129
 matriz2_3_2_Transposta_LVL3.c	PASSED
 
 REPETICAO 7
 
 
-Real_time:	2.669228
-Proc_time:	2.664540
-Total flpins:	1027701587
-MFLOPS:		385.695679
+Bytes:	2560000
+Real_time:	2.625914
+GFLOPS:		0.389959
+L1 Misses:	35282950
+L2 Misses:	1773346
+L3 Misses:	76446
+Ram Acess:	0.000003
+Total Instructions:	23604339132
 matriz2_3_2_Transposta_LVL3.c	PASSED
 
 REPETICAO 8
 
 
-Real_time:	2.674996
-Proc_time:	2.669835
-Total flpins:	1027687837
-MFLOPS:		384.925598
+Bytes:	2560000
+Real_time:	2.669230
+GFLOPS:		0.383631
+L1 Misses:	35281533
+L2 Misses:	1799559
+L3 Misses:	76896
+Ram Acess:	0.000003
+Total Instructions:	23604339171
 matriz2_3_2_Transposta_LVL3.c	PASSED
 

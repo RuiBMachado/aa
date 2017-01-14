@@ -1,72 +1,104 @@
 REPETICAO 1
 
 
-Real_time:	0.050064
-Proc_time:	0.049949
-Total flpins:	21209777
-MFLOPS:		424.628632
+Bytes:	160000
+Real_time:	0.058048
+GFLOPS:		0.275634
+L1 Misses:	664927
+L2 Misses:	164346
+L3 Misses:	0
+Ram Acess:	0.000000
+Total Instructions:	368363496
 matriz2_2_LVL2.c	PASSED
 
 REPETICAO 2
 
 
-Real_time:	0.055176
-Proc_time:	0.055044
-Total flpins:	21239928
-MFLOPS:		385.871826
+Bytes:	160000
+Real_time:	0.055430
+GFLOPS:		0.288652
+L1 Misses:	635564
+L2 Misses:	91219
+L3 Misses:	0
+Ram Acess:	0.000000
+Total Instructions:	368363491
 matriz2_2_LVL2.c	PASSED
 
 REPETICAO 3
 
 
-Real_time:	0.044524
-Proc_time:	0.044441
-Total flpins:	21202807
-MFLOPS:		477.100159
+Bytes:	160000
+Real_time:	0.054951
+GFLOPS:		0.291168
+L1 Misses:	606391
+L2 Misses:	99135
+L3 Misses:	0
+Ram Acess:	0.000000
+Total Instructions:	368363492
 matriz2_2_LVL2.c	PASSED
 
 REPETICAO 4
 
 
-Real_time:	0.044650
-Proc_time:	0.044562
-Total flpins:	21196018
-MFLOPS:		475.652313
+Bytes:	160000
+Real_time:	0.055897
+GFLOPS:		0.286241
+L1 Misses:	620595
+L2 Misses:	104817
+L3 Misses:	1
+Ram Acess:	0.000000
+Total Instructions:	368363493
 matriz2_2_LVL2.c	PASSED
 
 REPETICAO 5
 
 
-Real_time:	0.044015
-Proc_time:	0.043933
-Total flpins:	21197900
-MFLOPS:		482.505188
+Bytes:	160000
+Real_time:	0.055261
+GFLOPS:		0.289535
+L1 Misses:	626996
+L2 Misses:	91097
+L3 Misses:	0
+Ram Acess:	0.000000
+Total Instructions:	368363491
 matriz2_2_LVL2.c	PASSED
 
 REPETICAO 6
 
 
-Real_time:	0.043769
-Proc_time:	0.043678
-Total flpins:	21147375
-MFLOPS:		484.165405
+Bytes:	160000
+Real_time:	0.055267
+GFLOPS:		0.289504
+L1 Misses:	670540
+L2 Misses:	155068
+L3 Misses:	1
+Ram Acess:	0.000000
+Total Instructions:	368363492
 matriz2_2_LVL2.c	PASSED
 
 REPETICAO 7
 
 
-Real_time:	0.044104
-Proc_time:	0.044012
-Total flpins:	21210924
-MFLOPS:		481.935028
+Bytes:	160000
+Real_time:	0.056307
+GFLOPS:		0.284157
+L1 Misses:	667176
+L2 Misses:	172190
+L3 Misses:	1
+Ram Acess:	0.000000
+Total Instructions:	368363493
 matriz2_2_LVL2.c	PASSED
 
 REPETICAO 8
 
 
-Real_time:	0.043776
-Proc_time:	0.043689
-Total flpins:	21159576
-MFLOPS:		484.322723
+Bytes:	160000
+Real_time:	0.055601
+GFLOPS:		0.287765
+L1 Misses:	613680
+L2 Misses:	115577
+L3 Misses:	1
+Ram Acess:	0.000000
+Total Instructions:	368363492
 matriz2_2_LVL2.c	PASSED
 
