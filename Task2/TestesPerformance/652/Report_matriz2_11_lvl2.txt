@@ -1,0 +1,136 @@
+REPETICAO 1
+
+REPETICAO 2
+
+REPETICAO 3
+
+REPETICAO 4
+
+REPETICAO 5
+
+REPETICAO 6
+
+REPETICAO 7
+
+REPETICAO 8
+
+REPETICAO 1
+
+REPETICAO 2
+
+REPETICAO 3
+
+REPETICAO 4
+
+REPETICAO 5
+
+REPETICAO 6
+
+REPETICAO 7
+
+REPETICAO 8
+
+REPETICAO 1
+
+
+Bytes:	160000
+Real_time:	0.013338
+GFLOPS:		1.199580
+L1 Misses:	517290
+L2 Misses:	6886
+L3 Misses:	171
+Ram Acess:	0.000002
+Total Instructions:	80682006
+matriz2_11_lvl2.c	PASSED
+
+REPETICAO 2
+
+
+Bytes:	160000
+Real_time:	0.013200
+GFLOPS:		1.212121
+L1 Misses:	518207
+L2 Misses:	7140
+L3 Misses:	97
+Ram Acess:	0.000001
+Total Instructions:	80682006
+matriz2_11_lvl2.c	PASSED
+
+REPETICAO 3
+
+
+Bytes:	160000
+Real_time:	0.013191
+GFLOPS:		1.212948
+L1 Misses:	517621
+L2 Misses:	7048
+L3 Misses:	104
+Ram Acess:	0.000001
+Total Instructions:	80682006
+matriz2_11_lvl2.c	PASSED
+
+REPETICAO 4
+
+
+Bytes:	160000
+Real_time:	0.013211
+GFLOPS:		1.211112
+L1 Misses:	517746
+L2 Misses:	6636
+L3 Misses:	165
+Ram Acess:	0.000002
+Total Instructions:	80682007
+matriz2_11_lvl2.c	PASSED
+
+REPETICAO 5
+
+
+Bytes:	160000
+Real_time:	0.013229
+GFLOPS:		1.209464
+L1 Misses:	517721
+L2 Misses:	7033
+L3 Misses:	86
+Ram Acess:	0.000001
+Total Instructions:	80682008
+matriz2_11_lvl2.c	PASSED
+
+REPETICAO 6
+
+
+Bytes:	160000
+Real_time:	0.013205
+GFLOPS:		1.211662
+L1 Misses:	518356
+L2 Misses:	8348
+L3 Misses:	71
+Ram Acess:	0.000001
+Total Instructions:	80682007
+matriz2_11_lvl2.c	PASSED
+
+REPETICAO 7
+
+
+Bytes:	160000
+Real_time:	0.013208
+GFLOPS:		1.211387
+L1 Misses:	518118
+L2 Misses:	7257
+L3 Misses:	74
+Ram Acess:	0.000001
+Total Instructions:	80682008
+matriz2_11_lvl2.c	PASSED
+
+REPETICAO 8
+
+
+Bytes:	160000
+Real_time:	0.013206
+GFLOPS:		1.211570
+L1 Misses:	517617
+L2 Misses:	6953
+L3 Misses:	85
+Ram Acess:	0.000001
+Total Instructions:	80682008
+matriz2_11_lvl2.c	PASSED
+
