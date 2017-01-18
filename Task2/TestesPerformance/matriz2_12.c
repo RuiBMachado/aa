@@ -7,6 +7,7 @@
 #include <sys/types.h>
 #include <memory.h>
 #include "papi.h"
+#include <omp.h>
 
 #define N 50
 #define RANDOM 100
@@ -48,21 +49,32 @@ void imprimeMatriz(float **m, int n){
 
 void multMatriz(float **a, float **b, float **res, int n ) {
     
-    int i, j, k;
+    int i, j, k, l;
     float valor;
+    float *matrizC = malloc( n*sizeof( float));
     float** matrizBtrans = transposta(b,n);
+   
+#pragma omp parallel shared(res) private(i,j,valor)
+    {
+#pragma omp for
     for ( i = 0; i < n; i++){
         for ( j = 0; j < n; j++){
             valor=res[i][j];
-            
+          
             for ( k = 0; k < n; k++){
-                valor = valor + a[i][k] * matrizBtrans[j][k];
+                matrizC[k] = a[i][k] * matrizBtrans[j][k];
+            }
+            
+            for (l=0;l<n;l++) {
+                valor += matrizC[l];
             }
             
             res[i][j]=valor;
         }
     }
+    }
     free(matrizBtrans);
+    free(matrizC);
 }
 
 
@@ -81,6 +93,7 @@ int main() {
     float **matrizA;
     float **matrizB;
     float **matrizR; //Matriz resultado
+    omp_set_num_threads(40);
     
     
     if (( matrizA = malloc( N*sizeof( float* ))) == NULL ) return 0;

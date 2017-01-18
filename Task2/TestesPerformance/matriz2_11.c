@@ -51,13 +51,14 @@ void multMatriz(float **a, float **b, float **res, int n ) {
     int i, j, k, l;
     float valor;
     float *matrizC = malloc( n*sizeof( float));
-    
+    float** matrizBtrans = transposta(b,n);
+
     for ( i = 0; i < n; i++){
         for ( j = 0; j < n; j++){
             valor=res[i][j];
             
             for ( k = 0; k < n; k++){
-                matrizC[k] = a[i][k] * b[k][j];
+                matrizC[k] = a[i][k] *  matrizBtrans[j][k];
             }
             
             for (l=0;l<n;l++) {
@@ -67,6 +68,8 @@ void multMatriz(float **a, float **b, float **res, int n ) {
             res[i][j]=valor;
         }
     }
+    free(matrizBtrans);
+    free(matrizC);
 }
 
 
